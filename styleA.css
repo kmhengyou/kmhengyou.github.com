@@ -1,0 +1,38 @@
+ol {
+  display: flex;
+  flex-direction: column;
+  /* display: inline-block; */
+  margin: auto;
+  width: 100px;
+  align-self: stretch;
+  height: 100%;
+  justify-content: space-between;
+  list-style:none;
+  white-space: nowrap;
+}
+
+li {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100px;
+  border: 1px #687291;
+  border-top-style: solid;
+  margin-top: 10px auto;
+  text-align: center;
+}
+
+li:nth-of-type(odd) {
+  background-color: #dfe1e7;
+}
+
+li:nth-of-type(even) {
+  background-color: #eeeff2;
+}
+
+li:last-of-type {
+  background-color: #687291;
+  border: 4px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
